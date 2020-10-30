@@ -1,0 +1,187 @@
+$header-font: 'Josefin Sans', sans-serif;
+$body-font: 'Lato', sans-serif;
+$title-color: lightblue;
+$text-shadow: darkgrey;
+$metal-font: 'UnifrakturMaguntia', cursive;
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+}
+
+#flag {
+    display: block;
+    max-width: 100%;
+    height: 2rem;
+  }
+
+  /*body, html {
+    height: 100%;
+  }*/
+
+  .parallax1 {
+    /* The image used */
+    background-image: url("../img/cliff-fjord.jpg");
+  
+    /* Set a specific height */
+    height: 55rem;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: lightblue;
+      text-shadow: 2px 2px darkgray;
+  }
+
+  .subtitle {
+    position: absolute;
+    left: 0;
+    top: 58%;
+    width: 100%;
+    text-align: center;
+    color: lightblue;
+
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/fjord-ice.jpg");
+
+  /* Set a specific height */
+  height: 55rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../img/coast.jpg");
+
+  /* Set a specific height */
+  height: 55rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+  }
+
+  #contactModal {
+    .modal-header {
+      background-color: red;
+      color: white;
+    }
+  }
+  #loginModal {
+    .modal-header {
+      background-color: red;
+      color: blue;
+      text-shadow: 2px 2px white;
+    }
+  }
+
+  #forestModal,
+  #coastalModal,
+  #staveModal {
+    .modal-header {
+      background-color: red;
+      color: blue;
+      text-shadow: 2px 2px white;
+    }
+  }
+
+  #metalModal{
+    .modal-header{
+      background-color: black;
+      color: white;
+      font-family: $metal-font;
+    }
+  }
+
+  #metal {
+    font-family: $metal-font;
+  }
+
+  .jumbotron {
+    background-image: url("../img/jumbFjord.jpg");
+    background-position: center;
+    color: $title-color;
+    text-shadow: 2px 2px $text-shadow;
+    
+}
+
+footer {
+  margin-top: 20px;
+}
+
+#space {
+  padding-top: 10px;
+}
+/*.jumText {
+  margin-left: -400px;
+}*/
+
+  /*.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }*/
+
+/*My borders showing different div  
+.col, div[class^="col-"], label[class^="col-"] {
+    border: 1px solid red;
+    margin: 2px; 
+    
+} 
+
+.row {
+    border: 3px solid blue;
+    padding: 2px;
+    margin: 5px;
+}
+
+.container {
+    border: 3px solid green;
+    padding: 2px;
+    margin: 5px;    
+}
+
+.media {
+    border: 3px solid yellow;
+    padding: 2px;
+    margin: 5px;       
+}  
+
+.card {
+    border: 3px solid purple;
+    padding: 2px;
+    margin: 5px;    
+}*/
