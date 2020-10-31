@@ -18,11 +18,8 @@ p {
     height: 100%;
   }*/
 .parallax1 {
-  /* The image used */
   background-image: url("../img/cliff-fjord.jpg");
-  /* Set a specific height */
   height: 55rem;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
